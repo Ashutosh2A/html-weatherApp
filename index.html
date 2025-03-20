@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!-- Main cointer -->
+    <div class="card">
+      <h3>Want2no Weather Info?</h3>
+      <div class="search">
+        <input id="searchBox" type="text" placeholder="enter city name" spellcheck="false" />
+        <button id="searchBtn" ><img  src="images/search.png"></button>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <!-- Weather report -->
+      <div class="weather">
+        <img src="images/rain.jpg" class="weather-icon" alt="" />
+        <h1 class="temp">22⁰C</h1>
+        <h2 class="city">New York</h2>
+        <!-- Weather details -->
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.jpg" alt="">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png" alt="">
+                <div>
+                    <p class="wind">50 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- js file added -->
+    <script src="index.js"></script>
+  </body>
+</html>
